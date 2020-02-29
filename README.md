@@ -1,6 +1,5 @@
 # Project 2019
 This is the repository for submitting your final assignment.
-**Deadline: 30th April 2019, 5 pm London time.**
 
 ## Name: 
 Qiang Ha
@@ -26,20 +25,20 @@ The project is divided into three parts
 1. preprocessing and fact checking
 
 Firstly, I preprocessed the tweet json obejcts to select tweet level, user_level information related columns that may be useful in distinguishing fake news and true news. Then I fact checked each tweet and created a new column to store the result. 
-#### Please see fact_checking.ipynb for implementation.
+* Please see fact_checking.ipynb for implementation. *
 
 2. Topic analysis
 
 I used Latent Dirichlet Allocation models to model the topics in twitter. For the 20 day periods, I ran the model to extract the top features to compare topics of true news and fake news and analyse the differences of topics and top features for fake and true news.
 
-#### Please see topic_modelling.ipynb for implementation.
+* Please see topic_modelling.ipynb for implementation. *
 
 
 3. Analysis of tweet and user level features
 
 I extracted tweet and user level characteristics and checked if they can be used as features to distinguish true or fake news. I used logistic regression with lasso penalty to do feature selection.
 
-#### Please see user_tweet_level_features.ipynb for implementation.
+* Please see user_tweet_level_features.ipynb for implementation. *
 
 
 ---
@@ -72,5 +71,5 @@ my-actions.sh -- an intialisation script useful for topic modelling
 preprocessing.md -- some terminal commands to do preprocessing
 
 
-## One should follow Misinformation Diffusion on Twitter Network during the 2016 US Election.ipynb in the main folder which contains main part of the analysis and then visit other files as mentioned in the workflow.
+##  Misinformation Diffusion on Twitter Network during the 2016 US Election.ipynb in the main folder contains main part of the analysis
 
