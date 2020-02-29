@@ -1,12 +1,3 @@
-# Project 2019
-This is the repository for submitting your final assignment.
-
-## Name: 
-Qiang Ha
-## LSE ID:
-201851260
-## e-mail:
-q.ha@lse.ac.uk
 ## Project title:
 Analysis of Misinformation Diffusion on Twitter Network during the 2016 US Election with Google Cloud Storage and Pyspark
 ## Summary:
