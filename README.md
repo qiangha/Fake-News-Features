@@ -16,20 +16,20 @@ The project is divided into three parts
 1. preprocessing and fact checking
 
 Firstly, I preprocessed the tweet json obejcts to select tweet level, user_level information related columns that may be useful in distinguishing fake news and true news. Then I fact checked each tweet and created a new column to store the result. 
-* Please see fact_checking.ipynb for implementation. *
+* Please see fact_checking.ipynb for implementation. 
 
 2. Topic analysis
 
 I used Latent Dirichlet Allocation models to model the topics in twitter. For the 20 day periods, I ran the model to extract the top features to compare topics of true news and fake news and analyse the differences of topics and top features for fake and true news.
 
-* Please see topic_modelling.ipynb for implementation. *
+* Please see topic_modelling.ipynb for implementation. 
 
 
 3. Analysis of tweet and user level features
 
 I extracted tweet and user level characteristics and checked if they can be used as features to distinguish true or fake news. I used logistic regression with lasso penalty to do feature selection.
 
-* Please see user_tweet_level_features.ipynb for implementation. *
+* Please see user_tweet_level_features.ipynb for implementation. 
 
 
 ---
